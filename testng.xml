@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <classes>
+  <class name="script.InValidLogin"/>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
