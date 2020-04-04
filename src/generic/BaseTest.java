@@ -15,8 +15,8 @@ public class BaseTest implements IAutoConst {
 			}
 	
 	@BeforeMethod
-	public void openApplication()
-	{
+	public void openApplication() {
+		// removed print statement
 		driver=new ChromeDriver();
 		String url=Lib.getPpt(CONFIG_PATH,"URL");
 		driver.get(url);
